@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Playground.xcodeproj">
+      location = "self:/Users/Li/Documents/Playground/FizzBuzz.xcodeproj">
    </FileRef>
 </Workspace>

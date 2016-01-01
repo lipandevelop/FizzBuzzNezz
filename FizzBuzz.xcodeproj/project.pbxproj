@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AE18C151BEFD1A300D74934 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AE18C141BEFD1A300D74934 /* main.c */; };
+		0AE18C151BEFD1A300D74934 /* FizzBuzzNezz.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AE18C141BEFD1A300D74934 /* FizzBuzzNezz.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0AE18C111BEFD1A300D74934 /* Playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Playground; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AE18C141BEFD1A300D74934 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0AE18C111BEFD1A300D74934 /* FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FizzBuzz; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE18C141BEFD1A300D74934 /* FizzBuzzNezz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FizzBuzzNezz.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		0AE18C081BEFD1A300D74934 = {
 			isa = PBXGroup;
 			children = (
-				0AE18C131BEFD1A300D74934 /* Playground */,
+				0AE18C131BEFD1A300D74934 /* Assignment 1 & 2 */,
 				0AE18C121BEFD1A300D74934 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,26 @@
 		0AE18C121BEFD1A300D74934 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AE18C111BEFD1A300D74934 /* Playground */,
+				0AE18C111BEFD1A300D74934 /* FizzBuzz */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0AE18C131BEFD1A300D74934 /* Playground */ = {
+		0AE18C131BEFD1A300D74934 /* Assignment 1 & 2 */ = {
 			isa = PBXGroup;
 			children = (
-				0AE18C141BEFD1A300D74934 /* main.c */,
+				0AE18C141BEFD1A300D74934 /* FizzBuzzNezz.c */,
 			);
+			name = "Assignment 1 & 2";
 			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0AE18C101BEFD1A300D74934 /* Playground */ = {
+		0AE18C101BEFD1A300D74934 /* FizzBuzz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AE18C181BEFD1A300D74934 /* Build configuration list for PBXNativeTarget "Playground" */;
+			buildConfigurationList = 0AE18C181BEFD1A300D74934 /* Build configuration list for PBXNativeTarget "FizzBuzz" */;
 			buildPhases = (
 				0AE18C0D1BEFD1A300D74934 /* Sources */,
 				0AE18C0E1BEFD1A300D74934 /* Frameworks */,
@@ -77,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = Playground;
+			name = FizzBuzz;
 			productName = Playground;
-			productReference = 0AE18C111BEFD1A300D74934 /* Playground */;
+			productReference = 0AE18C111BEFD1A300D74934 /* FizzBuzz */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0AE18C0C1BEFD1A300D74934 /* Build configuration list for PBXProject "Playground" */;
+			buildConfigurationList = 0AE18C0C1BEFD1A300D74934 /* Build configuration list for PBXProject "FizzBuzz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AE18C101BEFD1A300D74934 /* Playground */,
+				0AE18C101BEFD1A300D74934 /* FizzBuzz */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE18C151BEFD1A300D74934 /* main.c in Sources */,
+				0AE18C151BEFD1A300D74934 /* FizzBuzzNezz.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,21 +208,21 @@
 		0AE18C191BEFD1A300D74934 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FizzBuzz;
 			};
 			name = Debug;
 		};
 		0AE18C1A1BEFD1A300D74934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FizzBuzz;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AE18C0C1BEFD1A300D74934 /* Build configuration list for PBXProject "Playground" */ = {
+		0AE18C0C1BEFD1A300D74934 /* Build configuration list for PBXProject "FizzBuzz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AE18C161BEFD1A300D74934 /* Debug */,
@@ -230,7 +231,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AE18C181BEFD1A300D74934 /* Build configuration list for PBXNativeTarget "Playground" */ = {
+		0AE18C181BEFD1A300D74934 /* Build configuration list for PBXNativeTarget "FizzBuzz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AE18C191BEFD1A300D74934 /* Debug */,
